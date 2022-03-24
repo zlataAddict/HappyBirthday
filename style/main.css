@@ -1,0 +1,394 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/Fotoram.io.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: center;
+}
+.words{
+    /* font-family: 'Forum', cursive;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 450px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-transform: uppercase; */
+    font-family: 'Forum', cursive;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 200px;
+}
+/* .words2{
+    font-family: 'Forum', cursive;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 660px;
+    margin-top: -110px;
+    text-transform: uppercase;     
+} */
+/* .hb{} */
+.hb h1{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hb p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+}
+.line{
+    height: 1px;
+    width: 1300px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .znakomstvo{} */
+.znakomstvo h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.znakomstvo img{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}
+.znakomstvo p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+    display: table;
+}
+/* .firstmeet{} */
+.firstmeet h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.firstmeet img{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}.firstmeet p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+}
+/* .nft{} */
+.nft h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.nft img{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}
+.nft p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+}
+/* .secondmeet{} */
+.secondmeet h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.secondmeet img{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}
+.secondmeet p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+}
+/* .krasota{} */
+.krasota h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.krasota img{
+    float: left;
+    margin-right: 10%;
+    width: 20%;
+}
+.krasota p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+/* .style{} */
+.style h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.style img{
+    float: left;
+    margin-right: 10%;
+    width: 20%;
+}
+.style p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+/* .bio{} */
+.bio h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.bio img{
+    float: left;
+    margin-right: 10%;
+    width: 30%;
+}
+.bio p{
+    font-family: 'Forum', cursive;
+    text-indent: 20px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    margin-right: 10%;
+}
+/* .yy{} */
+.yy img{
+    width: 40%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.yy h2{
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+/* .infinity{} */
+.infinity img{
+    width: 40%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.infinity h2{
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    margin-top: -130px;
+    margin-bottom: 130px;
+}
+/* .moments{} */
+.moments h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.moments img{
+    display: inline-flex;
+    flex-direction: row;
+    width: 20%;
+    margin-left: 10%;
+    padding-bottom: 100px;
+}
+footer{
+   background-color: rgb(245, 245, 245); 
+}
+.nad{
+    text-align: center;
+}
+.nad h2{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.nad p{
+    font-family: 'Forum', cursive;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+@media (max-width: 1350px){
+    .words, .words2{
+        text-align: center;
+    } 
+    section p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .znakomstvo{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .firstmeet{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .nft{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .secondmeet{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .krasota{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .style{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .bio{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media(max-width: 950px){
+    .znakomstvo img{
+        width: 50%;
+    }
+    .firstmeet img{
+        width: 50%;
+    }
+    .nft img{
+        width: 50%;
+    }
+    .secondmeet img{
+        width: 50%;
+    }
+    .krasota img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .style img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .bio img{
+        width: 50%;
+    } 
+    .moments img{
+        width: 30%;
+    }
+}
+@media(max-width: 650px){
+    .znakomstvo img{
+        width: 50%;
+    }
+    .firstmeet img{
+        width: 50%;
+    }
+    .nft img{
+        width: 50%;
+    }
+    .secondmeet img{
+        width: 50%;
+    }
+    .krasota img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .style img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .bio img{
+        width: 50%;
+    } 
+    .moments img{
+        width: 30%;
+    }
+}
+@media (max-width: 626px){
+    header{
+        width: 626px;
+    }
+    .words{
+        position: relative;
+        top: -500px;
+    }
+}
+@media (max-width: 449px) {
+    .hb h1{
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+}
